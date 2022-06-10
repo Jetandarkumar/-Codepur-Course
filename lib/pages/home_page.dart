@@ -7,11 +7,12 @@ class HomePage extends StatelessWidget {
     final String name = "Codepur";
     return Scaffold(
       appBar: AppBar(
-        title:Text("Catalog App"),
+        title: Text("Catalog App"),
       ),
       body: Center(
-          child: Container(child: Text("Welcome to $days days of code, $name"))),
-          drawer: Drawer(),
+          child:
+              Container(child: Text("Welcome to $days days of code with, $name"))),
+      drawer: Drawer(),
     );
   }
 }
