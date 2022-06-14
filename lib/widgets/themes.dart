@@ -12,6 +12,6 @@ class MyTheme {
         titleTextStyle: Theme.of(context).textTheme.titleMedium,
       ));
 
-  static ThemeData dartkTheme(BuildContext context) =>
+    static ThemeData dartkTheme(BuildContext context) =>
       ThemeData(brightness: Brightness.dark);
 }
